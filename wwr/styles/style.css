@@ -17,7 +17,7 @@ nav a {
     text-align: center;
 }
 
-main {
+main section {
     text-align: center;
 }
 
@@ -58,12 +58,13 @@ nav a:hover {
 }
 
 .join:hover {
-    background-color: #FCBF49;
-    color: #003049;
+    background-color: #003049;
+    color: white;
 }
 
 footer {
-    background-color: #003049;  
+    background-color: #003049;
+    color: #FCBF49; 
 }
 
 .msg {
@@ -83,12 +84,11 @@ footer a {
     width: 80px;
 }
 
-#hero-msg {
+#hero-img {
     width: 100%;
 }
 
 footer p {
-    color: #FCBF49;
     font-size: 1.2em;
 }
 
