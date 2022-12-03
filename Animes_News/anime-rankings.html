@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="styles/style.css">
     </head>
     <body>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
         <div id="content">
             <header>
                 <a id="logo_link" href="index.html">
@@ -21,291 +22,258 @@
                     <a href="site-plan.html">Site Plan</a>
                 </nav>
             </header>
-            <main>
-                <h1>Animes Rankings</h1>
-                <img src="images/rsz_1anime-ranking-fall-2022.jpg" alt="Anime Ranking Fall 2022">
-                <p>More anime series and movies have been released every season for this decade, and you can expect tens of the new finest-quality anime this year as well. For every anime fan including beginners and advanced watchers, this page introduces the highest-ranked animes in a lot of categories (seasonal animes, animes of the year, adventure animes, animes of all times, etc) which we recommend to watch on various global platforms such as Netflix, Crunchyroll, Amazon Prime Video, Hulu, etc.</p>
-                <p>For those who are wondering what to watch this year, this page offers nice recommendations to watch right now! Browse the highest-ranked anime on Animes News and find top TV series, movies, and Ovas right here!</p>
+            <main class="anime-rankings-page">
+                <h1 class="home-title">Animes Rankings</h1>
 
-                <h2>Top Animes Series</h2>
+                <div class="ranking-grid">
+                    <img class="full-width-img" src="images/rsz_1anime-ranking-fall-2022.jpg" alt="Anime Ranking Fall 2022">
+                    
+                    <div class="paragraph">
+                        <p>More anime series and movies have been released every season for this decade, and you can expect tens of the new finest-quality anime this year as well. For every anime fan including beginners and advanced watchers, this page introduces the highest-ranked animes in a lot of categories (seasonal animes, animes of the year, adventure animes, animes of all times, etc) which we recommend to watch on various global platforms such as Netflix, Crunchyroll, Amazon Prime Video, Hulu, etc.</p>
+                        <p>For those who are wondering what to watch this year, this page offers nice recommendations to watch right now! Browse the highest-ranked anime on Animes News and find top TV series, movies, and Ovas right here!</p>
+                    </div>
+                    
+                    <h2 class="shaded">Top Animes Series</h2>
 
-                <table bgcolor="black">
-                    <tr bgcolor="white">
-                        <th width="50px">Rank</th>
-                        <th width="1000px">Title</th>
-                        <th width="50px">Score</th>
-                    </tr>
-                    <tr bgcolor="white">
-                        <td>1</td>
-                        <td>
-                            <img src="images/Fullmetal Alchemist Brotherhood.jpg" alt="Fullmetal Alchemist Brotherhood poster">
-                            <h3>Fullmetal Alchemist: Brotherhood</h3>
-                            <div>
-                                TV (64 eps)
-                                <br>
-                                Apr 2009 - Jul 2010
-                            </div>
-                        </td>
-                        <td>9.12</td>
-                    </tr>
-                    <tr bgcolor="white">
-                        <td>2</td>
-                        <td>
-                            <img src="images/Bleach Thousand Year Blood War.jpg" alt="Bleach Thousand Year Blood War Poster">
-                            <h3>Bleach: Thousand Year Blood War</h3>
+                    <table class="table-ranking">
+                        <tr class="table-header">
+                            <th class="table-rank-section">Rank</th>
+                            <th class="table-title-section">Title</th>
+                            <th class="table-score-section">Score</th>
+                        </tr>
+                        <tr>
+                            <td class="rank-section">1</td>
+                            <td class="table-ranking-align">
+                                <img src="images/Fullmetal-Alchemist-Brotherhood.jpg" alt="Fullmetal Alchemist Brotherhood poster">
                                 <div>
-                                    TV (13 eps)
-                                    <br>
-                                    Oct 2022 - Present
+                                    <h3 class="shaded">Fullmetal Alchemist: Brotherhood</h3>
+                                    <p>TV (64 eps)<br>Apr 2009 - Jul 2010</p>
                                 </div>
-                        </td>
-                        <td>9.10</td>
-                    </tr>
-                    <tr bgcolor="white">
-                        <td>3</td>
-                        <td>
-                            <img src="images/Kaguya-sama wa Kokurasetai Ultra Romantic.jpg" alt="Kaguya-sama wa Kokurasetai: Ultra Romantic poster">
-                            <h3>Kaguya-sama wa Kokurasetai: Ultra Romantic</h3>
+                            </td>
+                            <th>9.12</th>
+                        </tr>
+                        <tr>
+                            <td class="rank-section">2</td>
+                            <td class="table-ranking-align">
+                                <img src="images/Bleach-Thousand-Year-Blood-War.jpg" alt="Bleach Thousand Year Blood War Poster">
                                 <div>
-                                    TV (13 eps)
-                                    <br>
-                                    Apr 2022 - Jul 2022
+                                    <h3 class="shaded">Bleach: Thousand Year Blood War</h3>
+                                    <p>TV (13 eps)<br>Oct 2022 - Present</p>
                                 </div>
-                        </td>
-                        <td>9.09</td>
-                    </tr>
-                    <tr bgcolor="white">
-                        <td>4</td>
-                        <td>
-                            <img src="images/Steins Gate.jpg" alt="Steins Gate poster">
-                            <h3>Steins Gate</h3>
+                            </td>
+                            <th>9.10</th>
+                        </tr>
+                        <tr>
+                            <td class="rank-section">3</td>
+                            <td class="table-ranking-align">
+                                <img src="images/Kaguya-sama-wa-Kokurasetai-Ultra-Romantic.jpg" alt="Kaguya-sama wa Kokurasetai: Ultra Romantic poster">
                                 <div>
-                                    TV (24 eps)
-                                    <br>
-                                    Apr 2011 - Sep 2011
+                                    <h3 class="shaded">Kaguya-sama wa Kokurasetai: Ultra Romantic</h3>
+                                    <p>TV (13 eps)<br>Apr 2022 - Jul 2022</p>
                                 </div>
-                        </td>
-                        <td>9.08</td>
-                    </tr>
-                    <tr bgcolor="white">
-                        <td>5</td>
-                        <td>
-                            <img src="images/Gintama Season 4.jpg" alt="Gintama Season 4 poster">
-                            <h3>Gintama Season 4</h3>
+                            </td>
+                            <th>9.09</th>
+                        </tr>
+                        <tr>
+                            <td class="rank-section">4</td>
+                            <td class="table-ranking-align">
+                                <img src="images/Steins-Gate.jpg" alt="Steins Gate poster">
                                 <div>
-                                    TV (51 eps)
-                                    <br>
-                                    Apr 2015 - Mar 2016
+                                    <h3 class="shaded">Steins Gate</h3>
+                                    <p>TV (24 eps)<br>Apr 2011 - Sep 2011</p>
                                 </div>
-                        </td>
-                        <td>9.07</td>
-                    </tr>
-                    <tr bgcolor="white">
-                        <td>6</td>
-                        <td>
-                            <img src="images/Attack on Titan Season 3 Part 2.jpg" alt="Attack on Titan Season 3 Part 2 poster">
-                            <h3>Attack on Titan Season 3 Part 2</h3>
+                            </td>
+                            <th>9.08</th>
+                        </tr>
+                        <tr>
+                            <td class="rank-section">5</td>
+                            <td class="table-ranking-align">
+                                <img src="images/Gintama-Season-4.jpg" alt="Gintama Season 4 poster">
                                 <div>
-                                    TV (10 eps)
-                                    <br>
-                                    Apr 2019 - Jul 2019
-                                </div>
-                        </td>
-                        <td>9.06</td>
-                    </tr>
-                    <tr bgcolor="white">
-                        <td>7</td>
-                        <td>
-                            <img src="images/Gintama Season 2.jpg" alt="Gintama Season 2 poster">
-                            <h3>Gintama Season 2</h3>
+                                    <h3 class="shaded">Gintama Season 4</h3>
+                                    <p>TV (51 eps)<br>Apr 2015 - Mar 2016</p>
+                                    </div>
+                            </td>
+                            <th>9.07</th>
+                        </tr>
+                        <tr>
+                            <td class="rank-section">6</td>
+                            <td class="table-ranking-align">
+                                <img src="images/Attack-on-Titan-Season-3-Part-2.jpg" alt="Attack on Titan Season 3 Part 2 poster">
                                 <div>
-                                    TV (51 eps)
-                                    <br>
-                                    Apr 2011 - Mar 2012
+                                    <h3 class="shaded">Attack on Titan Season 3 Part 2</h3>
+                                    <p>TV (10 eps)<br>Apr 2019 - Jul 2019</p>
                                 </div>
-                        </td>
-                        <td>9.05</td>
-                    </tr>
-                    <tr bgcolor="white">
-                        <td>8</td>
-                        <td>
-                            <img src="images/Gintama The Very Final movie.jpg" alt="Gintama The Very Final movie poster">
-                            <h3>Gintama: The Very Final</h3>
+                            </td>
+                            <th>9.06</th>
+                        </tr>
+                        <tr>
+                            <td class="rank-section">7</td>
+                            <td class="table-ranking-align">
+                                <img src="images/Gintama-Season-2.jpg" alt="Gintama Season 2 poster">
                                 <div>
-                                    Movie (1 ep)
-                                    <br>
-                                    Jan 2021 - Jan 2021
+                                    <h3 class="shaded">Gintama Season 2</h3>
+                                    <p>TV (51 eps)<br>Apr 2011 - Mar 2012</p>
                                 </div>
-                        </td>
-                        <td>9.05</td>
-                    </tr>
-                    <tr bgcolor="white">
-                        <td>9</td>
-                        <td>
-                            <img src="images/Gintama Enchousen.jpg" alt="Gintama Enchousen poster">
-                            <h3>Gintama: Enchousen</h3>
+                            </td>
+                            <th>9.05</th>
+                        </tr>
+                        <tr>
+                            <td class="rank-section">8</td>
+                            <td class="table-ranking-align">
+                                <img src="images/Gintama-The-Very-Final-movie.jpg" alt="Gintama The Very Final movie poster">
                                 <div>
-                                    TV (13 eps)
-                                    <br>
-                                    Oct 2012 - Mar 2013
+                                    <h3 class="shaded">Gintama: The Very Final</h3>
+                                    <p>Movie (1 ep)<br>Jan 2021 - Jan 2021</p>
                                 </div>
-                        </td>
-                        <td>9.04</td>
-                    </tr>
-                    <tr bgcolor="white">
-                        <td>10</td>
-                        <td>
-                            <img src="images/Hunter x Hunter (2011).jpg" alt="Fullmetal Alchemist Brotherhood poster">
-                            <h3>Hunter x Hunter (2011)</h3>
+                            </td>
+                            <th>9.05</th>
+                        </tr>
+                        <tr>
+                            <td class="rank-section">9</td>
+                            <td class="table-ranking-align">
+                                <img src="images/Gintama-Enchousen.jpg" alt="Gintama Enchousen poster">
                                 <div>
-                                    TV (148 eps)
-                                    <br>
-                                    Oct 2011 - Sep 2014
+                                    <h3 class="shaded">Gintama: Enchousen</h3>
+                                    <p>TV (13 eps)<br>Oct 2012 - Mar 2013</p>
                                 </div>
-                        </td>
-                        <td>9.04</td>
-                    </tr>
-                </table>
+                            </td>
+                            <th>9.04</th>
+                        </tr>
+                        <tr>
+                            <td class="rank-section">10</td>
+                            <td class="table-ranking-align">
+                                <img src="images/Hunter-x-Hunter(2011).jpg" alt="Fullmetal Alchemist Brotherhood poster">
+                                <div>
+                                    <h3 class="shaded">Hunter x Hunter (2011)</h3>
+                                    <p>TV (148 eps)<br>Oct 2011 - Sep 2014</p>
+                                </div>
+                            </td>
+                            <th>9.04</th>
+                        </tr>
+                    </table>
 
-                <h2>Top Airing Animes</h2>
+                    <h2 class="shaded">Top Airing Animes</h2>
 
-                <table bgcolor="black">
-                    <tr bgcolor="white">
-                        <th width="50px">Rank</th>
-                        <th width="1000px">Title</th>
-                        <th width="50px">Score</th>
-                    </tr>
-                    <tr bgcolor="white">
-                        <td>1</td>
-                        <td>
-                            <img src="images/Bleach Thousand Year Blood War.jpg" alt="Bleach Thousand Year Blood War Poster">
-                            <h3>Bleach: Thousand Year Blood War</h3>
+                    <table class="table-ranking">
+                        <tr class="table-header">
+                            <th class="table-rank-section">Rank</th>
+                            <th class="table-title-section">Title</th>
+                            <th class="table-score-section">Score</th>
+                        </tr>
+                        <tr>
+                            <td class="rank-section">1</td>
+                            <td class="table-ranking-align">
+                                <img src="images/Bleach-Thousand-Year-Blood-War.jpg" alt="Bleach Thousand Year Blood War Poster">
                                 <div>
-                                    TV (13 eps)
-                                    <br>
-                                    Oct 2022 - Dec 2022
+                                    <h3 class="shaded">Bleach: Thousand Year Blood War</h3>
+                                    <p>TV (13 eps)<br>Oct 2022 - Dec 2022</p>
                                 </div>
-                        </td>
-                        <td>9.10</td>
-                    </tr>
-                    <tr bgcolor="white">
-                        <td>2</td>
-                        <td>
-                            <img src="images/Chainsaw Man.jpg" alt="Chainsaw Man poster">
-                            <h3>Chainsaw Man</h3>
+                            </td>
+                            <th>9.10</th>
+                        </tr>
+                        <tr>
+                            <td class="rank-section">2</td>
+                            <td class="table-ranking-align">
+                                <img src="images/Chainsaw-Man.jpg" alt="Chainsaw Man poster">
                                 <div>
-                                    TV (12 eps)
-                                    <br>
-                                    Oct 2022 - Dec 2022
+                                    <h3 class="shaded">Chainsaw Man</h3>
+                                    <p>TV (12 eps)<br>Oct 2022 - Dec 2022</p>
                                 </div>
-                        </td>
-                        <td>8.86</td>
-                    </tr>
-                    <tr bgcolor="white">
-                        <td>3</td>
-                        <td>
-                            <img src="images/Mob Psycho 100 III.jpg" alt="Mob Psycho 100 III poster">
-                            <h3>Mob Psycho 100 III</h3>
+                            </td>
+                            <th>8.86</th>
+                        </tr>
+                        <tr>
+                            <td class="rank-section">3</td>
+                            <td class="table-ranking-align">
+                                <img src="images/Mob-Psycho-100-III.jpg" alt="Mob Psycho 100 III poster">
                                 <div>
-                                    TV (12 eps)
-                                    <br>
-                                    Oct 2022 - Dec 2022
+                                    <h3 class="shaded">Mob Psycho 100 III</h3>
+                                    <p>TV (12 eps)<br>Oct 2022 - Dec 2022</p>
                                 </div>
-                        </td>
-                        <td>8.68</td>
-                    </tr>
-                    <tr bgcolor="white">
-                        <td>4</td>
-                        <td>
-                            <img src="images/One Piece.jpg" alt="One Piece poster">
-                            <h3>One Piece</h3>
+                            </td>
+                            <th>8.68</th>
+                        </tr>
+                        <tr>
+                            <td class="rank-section">4</td>
+                            <td class="table-ranking-align">
+                                <img src="images/One-Piece.jpg" alt="One Piece poster">
                                 <div>
-                                    TV (? eps)
-                                    <br>
-                                    Oct 1999 - Present
+                                    <h3 class="shaded">One Piece</h3>
+                                    <p>TV (? eps)<br>Oct 1999 - Present</p>
                                 </div>
-                        </td>
-                        <td>8.67</td>
-                    </tr>
-                    <tr bgcolor="white">
-                        <td>5</td>
-                        <td>
-                            <img src="images/Spy x Family Part 2.jpg" alt="Spy x Family Part 2 poster">
-                            <h3>Spy x Family Part 2</h3>
+                            </td>
+                            <th>8.67</th>
+                        </tr>
+                        <tr>
+                            <td class="rank-section">5</td>
+                            <td class="table-ranking-align">
+                                <img src="images/Spy-x-Family-Part-2.jpg" alt="Spy x Family Part 2 poster">
                                 <div>
-                                    TV (13 eps)
-                                    <br>
-                                    Oct 2022 - Dec 2022
+                                    <h3 class="shaded">Spy x Family Part 2</h3>
+                                    <p>TV (13 eps)<br>Oct 2022 - Dec 2022</p>
                                 </div>
-                        </td>
-                        <td>8.65</td>
-                    </tr>
-                    <tr bgcolor="white">
-                        <td>6</td>
-                        <td>
-                            <img src="images/Bocchi the Rock!.jpg" alt="Bocchi the Rock! poster">
-                            <h3>Bocchi the Rock!</h3>
+                            </td>
+                            <th>8.65</th>
+                        </tr>
+                        <tr>
+                            <td class="rank-section">6</td>
+                            <td class="table-ranking-align">
+                                <img src="images/Bocchi-the-Rock!.jpg" alt="Bocchi the Rock! poster">
                                 <div>
-                                    TV (12 eps)
-                                    <br>
-                                    Oct 2022 - Dec 2022
+                                    <h3 class="shaded">Bocchi the Rock!</h3>
+                                    <p>TV (12 eps)<br>Oct 2022 - Dec 2022</p>
                                 </div>
-                        </td>
-                        <td>8.61</td>
-                    </tr>
-                    <tr bgcolor="white">
-                        <td>7</td>
-                        <td>
-                            <img src="images/Golden Kamuy 4th Season.jpg" alt="Golden Kamuy 4th Season poster">
-                            <h3>Golden Kamuy 4th Season</h3>
+                            </td>
+                            <th>8.61</th>
+                        </tr>
+                        <tr>
+                            <td class="rank-section">7</td>
+                            <td class="table-ranking-align">
+                                <img src="images/Golden-Kamuy-4th-Season.jpg" alt="Golden Kamuy 4th Season poster">
                                 <div>
-                                    TV (13 eps)
-                                    <br>
-                                    Oct 2022 - Dec 2022
+                                    <h3 class="shaded">Golden Kamuy 4th Season</h3>
+                                    <p>TV (13 eps)<br>Oct 2022 - Dec 2022</p>
                                 </div>
-                        </td>
-                        <td>8.32</td>
-                    </tr>
-                    <tr bgcolor="white">
-                        <td>8</td>
-                        <td>
-                            <img src="images/Holo no Graffiti.jpg" alt="Holo no Graffiti poster">
-                            <h3>Holo no Graffiti</h3>
+                            </td>
+                            <th>8.32</th>
+                        </tr>
+                        <tr>
+                            <td class="rank-section">8</td>
+                            <td class="table-ranking-align">
+                                <img src="images/Holo-no-Graffiti.jpg" alt="Holo no Graffiti poster">
                                 <div>
-                                    ONA (? eps)
-                                    <br>
-                                    May 2019 - Present
+                                    <h3 class="shaded">Holo no Graffiti</h3>
+                                    <p>ONA (? eps)<br>May 2019 - Present</p>
                                 </div>
-                        </td>
-                        <td>8.30</td>
-                    </tr>
-                    <tr bgcolor="white">
-                        <td>9</td>
-                        <td>
-                            <img src="images/Blue Lock.jpg" alt="Blue Lock poster">
-                            <h3>Blue Lock</h3>
+                            </td>
+                            <th>8.30</th>
+                        </tr>
+                        <tr>
+                            <td class="rank-section">9</td>
+                            <td class="table-ranking-align">
+                                <img src="images/Blue-Lock.jpg" alt="Blue Lock poster">
                                 <div>
-                                    TV (24 eps)
-                                    <br>
-                                    Oct 2022 - Apr 2023
+                                    <h3 class="shaded">Blue Lock</h3>
+                                    <p>TV (24 eps)<br>Oct 2022 - Apr 2023</p>
                                 </div>
-                        </td>
-                        <td>8.24</td>
-                    </tr>
-                    <tr bgcolor="white">
-                        <td>10</td>
-                        <td>
-                            <img src="images/My Hero Academia Season 6.jpg" alt="My Hero Academia Season 6 poster">
-                            <h3>My Hero Academia Season 6</h3>
+                            </td>
+                            <th>8.24</th>
+                        </tr>
+                        <tr>
+                            <td class="rank-section">10</td>
+                            <td class="table-ranking-align">
+                                <img src="images/My-Hero-Academia-Season-6.jpg" alt="My Hero Academia Season 6 poster">
                                 <div>
-                                    TV (25 eps)
-                                    <br>
-                                    Oct 2022 - Apr 2023
+                                    <h3 class="shaded">My Hero Academia Season 6</h3>
+                                    <p>TV (25 eps)<br>Oct 2022 - Apr 2023</p>
                                 </div>
-                        </td>
-                        <td>8.22</td>
-                    </tr>
-                </table>
+                            </td>
+                            <th>8.22</th>
+                        </tr>
+                    </table>
+
+                </div>
 
             </main>
             <footer>
@@ -326,5 +294,27 @@
 
             </footer>
         </div>
+
+        <script>
+            // Get the button
+            let mybutton = document.getElementById("myBtn");
+            
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+        </script>
     </body>
 </html>
