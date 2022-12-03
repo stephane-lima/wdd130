@@ -48,8 +48,8 @@ nav a:hover {
 }
 
 main {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
 .home-title {
@@ -149,9 +149,15 @@ aside {
     align-self: center;
 }
 
+/* Start CSS for subpage anime-rankings.html here*/
+
+.anime-rankings-page {
+    margin-left: 85px;
+    margin-right: 85px;  
+}
+
 .full-width-img {
     width: 100%;
-    margin-bottom: 30px;
 }
 
 .table-ranking-align {
@@ -188,6 +194,23 @@ aside {
 #myBtn:hover {
     background-color: #555;
     color: white;
+}
+
+.ranking-grid {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.table-rank-section {
+    width: 100px;
+}
+
+.table-title-section {
+    width: 800px;
+}
+
+.table-score-section {
+    width: 100px;
 }
   
 
@@ -230,6 +253,10 @@ footer .social img {
         display: block;
         padding: 15px;
     }
+    .main {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
     footer {
         margin-top: 25px;
     }
@@ -245,5 +272,23 @@ footer .social img {
     }
     .table-news {
         width: 100%;
+    }
+    .table-ranking-align {
+        display: block;
+    }
+    .table-ranking-align img {
+        width: 130px;
+        padding: 5px;
+    }
+    .table-ranking-align div { 
+        align-self: center;
+        font-size: 18px;
+    }
+    .anime-rankings-page {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .table-title-section {
+        width: 140px;
     }
 }
